@@ -1,0 +1,19 @@
+Number,Name,Location,Status,Elev,Type,Timeframe,Latitude,Longitude
+1,Mount Etna,Italy,Active,"3,329m",Stratovolcano,Quaternary,37.7340,15.0049
+2,Kilauea,Hawaii,Active,"1,247m",Shield volcano,Holocene,19.4215,-155.2878
+3,Mount Fuji,Japan,Dormant,"3,776m",Stratovolcano,Holocene,35.3606,138.7274
+4,Krakatoa,Indonesia,Active,813m,Caldera,Historical,-6.1028,105.4234
+5,Mount St. Helens,USA,Active,"2,550m",Stratovolcano,Holocene,46.8699,-121.7500
+6,Mount Kilimanjaro,Tanzania,Dormant,"5,895m",Stratovolcano,Pleistocene,-3.0674,37.3556
+7,Eyjafjallajokull,Iceland,Active,"1,666m",Stratovolcano,Holocene,63.6338,-19.6062
+8,Mauna Loa,Hawaii,Active,"4,169m",Shield volcano,Holocene,19.4753,-155.6082
+9,Mount Etna,Italy,Active,"3,329m",Stratovolcano,Pleistocene-Present,37.7340,15.0048
+10,Mount St. Helens,United States,Active,"2,550m",Stratovolcano,Holocene,46.1914,-122.1941
+11,Mount Vesuvius,Italy,Active,"1,281m",Stratovolcano,Somma volcano,40.8219,14.4265
+12,Krakatoa,Indonesia,Active,813m,Caldera,Holocene,-6.1028,105.4237
+13,Santorini,Greece,Active,367m,Caldera,Minoan,36.3932,25.4615
+14,Mount Fuji,Japan,Active,"3,776m",Stratovolcano,Holocene,35.3606,138.7276
+15,Kilauea,Hawaii,Active,"1,247m",Shield volcano,Holocene,19.4068,-155.2839
+16,Taal Volcano,Philippines,Active,311m,Complex volcano,Holocene,14.0027,120.9932
+17,Popocatepetl,Mexico,Active,"5,426m",Stratovolcano,Pleistocene,19.0230,-98.6275
+18,Mount Nyiragongo,Congo,Active,"3,470m",Stratovolcano,Holocene,-1.5191,29.2494
