@@ -14,10 +14,10 @@ fg = folium.FeatureGroup(name="my map")
 volcanoes = pd.read_csv("volcanoes.csv")
 
 
-cordinates = list(map(list, zip(volcanoes["Latitude"], volcanoes["Longitude"], volcanoes["Name"])))
+cordinates = list(map(list, zip(volcanoes["Latitude"], volcanoes["Longitude"], volcanoes["Name"], volcanoes["Elev"])))
 
 for cordinate in cordinates:
-    fg.add_child(folium.Marker(location=cordinate[0:2],tooltip=cordinate[2], icon= folium.Icon(color="red"))) 
+    fg.add_child(folium.Marker(location=cordinate[0:2],tooltip=cordinate[2],popup=cordinate[3] , icon= folium.Icon(color="red"))) 
   
     
     
