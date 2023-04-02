@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_481e5c83dd64846f5f8ebafe9c97b780 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_481e5c83dd64846f5f8ebafe9c97b780" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_481e5c83dd64846f5f8ebafe9c97b780 = L.map(
+                "map_481e5c83dd64846f5f8ebafe9c97b780",
+                {
+                    center: [33.3152, 44.3661],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_661d55c3a666a420ca51acfce730b3c4 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_481e5c83dd64846f5f8ebafe9c97b780);
+        
+    
+            var feature_group_f72fa47ebed876addeeb3195a57d8ac7 = L.featureGroup(
+                {}
+            ).addTo(map_481e5c83dd64846f5f8ebafe9c97b780);
+        
+    
+            var marker_f79edb06921dd68056f1036ef0fdcc3c = L.marker(
+                [33.3152, 44.3661],
+                {}
+            ).addTo(feature_group_f72fa47ebed876addeeb3195a57d8ac7);
+        
+    
+            marker_f79edb06921dd68056f1036ef0fdcc3c.bindTooltip(
+                `<div>
+                     Iraq
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14a1c876f85e3329dac8556938655e89 = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(feature_group_f72fa47ebed876addeeb3195a57d8ac7);
+        
+    
+            marker_14a1c876f85e3329dac8556938655e89.bindTooltip(
+                `<div>
+                     New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f1f163c609db00f54060aa7a926e527 = L.marker(
+                [35.6895, 139.6917],
+                {}
+            ).addTo(feature_group_f72fa47ebed876addeeb3195a57d8ac7);
+        
+    
+            marker_3f1f163c609db00f54060aa7a926e527.bindTooltip(
+                `<div>
+                     Tokyo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbf99063e6ffbfbff93a9f61f50d1b9f = L.marker(
+                [-33.8651, 151.2094],
+                {}
+            ).addTo(feature_group_f72fa47ebed876addeeb3195a57d8ac7);
+        
+    
+            marker_fbf99063e6ffbfbff93a9f61f50d1b9f.bindTooltip(
+                `<div>
+                     Sydney
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efee99143148d7bc1605869b668a4ceb = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(feature_group_f72fa47ebed876addeeb3195a57d8ac7);
+        
+    
+            marker_efee99143148d7bc1605869b668a4ceb.bindTooltip(
+                `<div>
+                     Paris
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a663a50235d9cffd96299d6b289f04c = L.marker(
+                [51.5074, -0.1278],
+                {}
+            ).addTo(feature_group_f72fa47ebed876addeeb3195a57d8ac7);
+        
+    
+            marker_4a663a50235d9cffd96299d6b289f04c.bindTooltip(
+                `<div>
+                     London
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35fc55accda4e5b90be6479ba2d62e32 = L.marker(
+                [-22.9068, -43.1729],
+                {}
+            ).addTo(feature_group_f72fa47ebed876addeeb3195a57d8ac7);
+        
+    
+            marker_35fc55accda4e5b90be6479ba2d62e32.bindTooltip(
+                `<div>
+                     Rio de Janeiro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59b78c9ca7ec741aa946f08c4bb3f2c7 = L.marker(
+                [55.7558, 37.6173],
+                {}
+            ).addTo(feature_group_f72fa47ebed876addeeb3195a57d8ac7);
+        
+    
+            marker_59b78c9ca7ec741aa946f08c4bb3f2c7.bindTooltip(
+                `<div>
+                     Moscow
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3772486eec5b3d2a7a8c3075140f601 = L.marker(
+                [19.4326, -99.1332],
+                {}
+            ).addTo(feature_group_f72fa47ebed876addeeb3195a57d8ac7);
+        
+    
+            marker_a3772486eec5b3d2a7a8c3075140f601.bindTooltip(
+                `<div>
+                     Mexico City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a50cd51735e02b2c67d4541b3973160 = L.marker(
+                [31.2304, 121.4737],
+                {}
+            ).addTo(feature_group_f72fa47ebed876addeeb3195a57d8ac7);
+        
+    
+            marker_5a50cd51735e02b2c67d4541b3973160.bindTooltip(
+                `<div>
+                     Shanghai
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c4d8b0d38ef6a7980ddc0c393fe84e9 = L.marker(
+                [37.7749, -122.4194],
+                {}
+            ).addTo(feature_group_f72fa47ebed876addeeb3195a57d8ac7);
+        
+    
+            marker_4c4d8b0d38ef6a7980ddc0c393fe84e9.bindTooltip(
+                `<div>
+                     San Francisco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
