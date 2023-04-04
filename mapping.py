@@ -27,7 +27,9 @@ for cordinate in cordinates:
     fg.add_child(folium.CircleMarker(location=cordinate[0:2],tooltip=cordinate[2],popup=cordinate[3] ,radius=6, fill_color = get_color_based_on_elv(cordinate[3]),
                                      color=get_color_based_on_elv(cordinate[3]), fill_opacity=0.7)) 
     
-fg.add_child(folium.GeoJson(data=(open('world.json', "r", encoding="utf-8-sig").read())))
+fg.add_child(folium.GeoJson(data=open('world.json', "r", encoding="utf-8-sig").read(),
+                            style_function= lambda x: {"fillColor": "green" if x['properties']['POP2005'] < 10000000
+                                                       else  "orange" if 10000000 <= x['properties']['POP2005'] and 20000000 > x['properties']['POP2005'] else "red" }))
 country_map.add_child(fg)
  
 
